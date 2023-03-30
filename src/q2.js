@@ -12,15 +12,28 @@
 
 // Task 1: Add code here
 
+const patientNamearray = [];
+
 function addPatient(patientName){
     // Task 2: Add code here
+    var i =0;
+    patientNamearray[i]=patientName;
+    i+=1;
+
 }
 
 // Task 3: Add code here
-
-
 addPatient("John");
 addPatient("Mary");
 addPatient("Mark");
 
-listPatient(); // This should list ["John", "Mary", "Mark"]
+function listPatient(patientList)
+{
+    for (let i=0; i<patientList.length;i++)
+    {
+        console.log(' "'+patientList[i]+'", ');
+    }
+    
+}
+
+listPatient(patientNamearray); // This should list ["John", "Mary", "Mark"]

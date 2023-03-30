@@ -24,6 +24,18 @@ const p = new Parent();
 p.showAbilities(); // Observe that this function prints "Parenting" and "Role modeling".
 
 // Task 1: Add code here
+class Child extends Parent  {
+    
+  constructor(abilities) {
+    super(abilities);
+  }
+    
+    addNewAbilities(newAbility)     {
+    this.abilities = newAbility;
+    
+    }
+
+}
 
 const c = new Child();
 c.addNewAbility("Dancing");

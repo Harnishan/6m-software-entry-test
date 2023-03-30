@@ -6,5 +6,9 @@
 */
 
 // Task 1: Add code here
+import {
+swap;
+
+} from './q1.js
 
 print();

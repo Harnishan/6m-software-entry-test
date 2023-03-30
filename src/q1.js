@@ -11,8 +11,27 @@
 
 function swap(x, y){
     // Task 1: Add code here
+    var x = 10;
+    var y = 5;
+    
+    if isNaN (x | y)
+    {
+        return (-1)
+    }
+    else
+    {
+         x = x + y;
+         y = x - y;
+         x = x - y;
+        
+        console.log ("Value of X after swap", x);
+         console.log ("Value of Y after swap", y);
+        return [x, y];
+    }
+    
 }
 
 // Task 2: Add code here
+console.log(sawp(10,5));
 
 module.exports = swap;

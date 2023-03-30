@@ -7,9 +7,15 @@
 */
 
 const dog = {
-    petName:"Bobby"
+    petName:"Bobby",
+    breed: "Poodle"
 }
 
 // Task 1: Add code here
 
 // Task 2: Add code here
+let text = "";
+for (let x in dog) {
+  text += dog[x];
+  console.log(text);
+}
